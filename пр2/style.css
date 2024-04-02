@@ -1,0 +1,496 @@
+@font-face {
+    font-family: Museo Sans Cyrl;
+    src: url("fonts/museosanscyrl_100.otf");
+}
+@font-face {
+    font-family: Neumann;
+    src: url("fonts/td-neumann.otf");
+}
+body{
+    width: 1920px;
+    margin: 0 auto;
+    
+}
+
+.conteiner1{
+    background: #333352;
+    
+}
+/*-меню-*/
+menu{
+    display: flex;
+    color: white;
+}
+menu h1{
+    font-family: Neumann;
+    width: 400px;
+    font-size: 28px;
+    margin-top: 30px;
+    margin-left: 300px;
+}
+.soc_seti{
+    margin-top: 30px;
+    margin-left: 70px;
+}
+.soc_seti img{
+   margin-right: 5px;
+}
+.namber{
+    font-family: Museo Sans Cyrl;
+    font-size: 16px;
+    text-align: right;
+    width: 300px;
+    margin-top: 3px;
+    line-height: 0.1;
+    margin-left: 160px;
+    
+}
+.namber .num{
+    font-size: 26px;
+}
+/*-main-*/
+.vbor{
+    font-family: Museo Sans Cyrl;
+    font-size: 16px;
+    display: flex;
+    margin-top: 70px;
+   
+}
+.vbor p{
+    width: 600px;
+    text-transform: uppercase; 
+    color: #FFFFFF;
+}
+.vbor img{
+    margin-left: 160px;
+    height: 30px;
+    width: 30px;
+    padding-left: 185px;
+    padding-right: 20px;
+}
+.KG{
+    display: flex;
+margin-left: 345px;
+
+}
+.kotedg h1{
+   font-size: 46px;  
+   font-family: Neumann;
+   margin-top: 45px;
+   color: #FFFFFF;
+}
+.kotedg button {
+    margin-top: 90px;
+    display: flex;
+    color:#6E5A45 ;
+    font-size: 14px;  
+    font-family:Museo Sans Cyrl;
+    width: 300px;
+    height: 70px;
+    text-align: center;
+    border-radius: 50px;
+    border: 1px #E9C878;
+    background :linear-gradient(150deg,#E9C878 40% ,#e9e9e9ee 50%  ,#d1b26b  65% ) ;
+ }
+ .zayuvka{
+    display: flex;
+ }
+ .zayuvka img{
+    width: 26px;
+    height: 26px;
+    margin-left: 40px;
+    margin-top: 20px;
+    padding-right: 20px;
+    
+ }
+ a{
+    text-decoration: none;
+ }
+ .zayuvka p{
+    text-transform: uppercase;
+    padding-top: 15px;
+    
+ }
+.par1{
+    display: flex;
+    margin-top: 45px;
+    margin-left: 300px;
+    font-family:Museo Sans Cyrl;
+    color: #FFFFFF;
+    line-height: 0.3;
+}
+.pr_bol{
+    font-size: 24px;
+}
+.pr_mal{
+    font-size: 14px;
+}
+.pr1{
+    padding-right: 75px;
+}
+.par2{
+    display: flex;
+    margin-left: 300px;
+    margin-top: 20px;
+    color: #FFFFFF;
+    font-family:Museo Sans Cyrl;
+    line-height: 0.2;
+}
+.pr3{
+    padding-right: 50px;
+}
+.par3{
+    font-family:Museo Sans Cyrl;
+    margin-top: 20px;
+    margin-left: 300px;
+    width:340px ;
+    height:45px ;
+    display: flex;
+    border-radius: 10px;
+    border: 2px solid white;
+    color: #FFFFFF;
+    background:linear-gradient( to right,rgba(255, 255, 255, 0) 50%,white 50%);
+    padding-left: 30px;
+}
+.whit{
+    color: #00004A;
+}
+.whiteBox{
+    display: flex;
+    padding-left: 70px;
+}
+.whiteBox img{
+   width: 27px;
+   height: 27px;
+   margin-top: 10px;
+   padding-right: 30px;
+}
+.Img_KG{
+    margin-top: 90px;
+    margin-left: 345px;
+}
+.maket{
+    display: flex;
+    margin-left: 410px;
+    padding-bottom: 120px;
+}  
+.Img_maket{
+    margin-top: 115px;
+    margin-right: 135px;
+}
+.etag{
+    display: flex;
+    flex-direction: column;
+    margin-top: 300px;
+    margin-right: 145px;
+}
+.et1{
+    padding-bottom: 25px;
+}
+.maket_podrobnee{
+    margin-top: 175px;
+    font-family: Neumann;
+    font-size: 15px;
+    text-align: center;
+    color: #FFFFFF;
+    text-transform: uppercase; 
+}
+.maket_podrobnee p{
+    margin-bottom: 40px;
+}
+/*-прогулка по шоуруму-*/
+.hoyrym{
+    margin-bottom: 120px;
+    background: #FFFFFF;
+}
+.hoyrym h1{
+ color: #28292E;
+ font-family: Neumann;
+ font-size: 65px;
+ margin-right: 230px;
+}
+.smotr{
+    display: flex;
+    margin-top: 80px;
+    margin-left: 340px;
+}
+.smotr button{
+    font-family:Museo Sans Cyrl;
+    border: 2px solid #E9C878;
+    background: white;
+    font-size: 14px;
+    color: #28292E;
+    border-radius: 50px;
+    width: 270px;
+    height: 70px;
+    margin-top: 55px;
+    text-align: center;
+}
+.hoyrym175{
+    display: flex;
+    margin-left: 340px;
+}
+.hoyrym175 h2{
+    font-family: Neumann;
+    text-transform: uppercase; 
+    color: #28292E;
+    font-size: 45px;
+    text-align: left;
+    margin-top: 75px;
+}
+.kyhnu{
+    margin-top: 55px;
+    width: 955px;
+    height: 450px;
+    margin-left: 155px;
+}
+.ykazately{
+    margin-top: 160px;
+}
+.tohki{
+    margin-left: 35px;
+    margin-right: 35px;
+    margin-bottom: 20px;
+}
+/*-примущества дома-*/
+.preemyhestva{
+    background: #F5F5F5 ;
+}
+.preemyhestva p{
+    font-family: Museo Sans Cyrl;
+    font-size: 22px;
+    line-height: 1.6;
+}
+.preemyhestva h2 {
+    font-family: Neumann;
+    font-size: 68px;
+    line-height: 0.2;
+    padding-top: 150px;
+}
+.preemyhestva h3 {
+    font-family: Neumann;
+    font-size: 45px;
+}
+
+.preemyh{
+    display: flex;
+    margin-left: 340px;
+}
+.preemyh img{
+    padding-top: 120px;
+    margin-left: 160px;
+}
+footer{
+    background: #00004A;
+    display: flex;
+    color: white;
+}
+table{
+    margin-top: 70px;
+    margin-left: 345px;
+    border: 1px solid gold;
+    width: 1170px;
+}
+table,td{
+    border:1px solid #EBEBEB;
+    border-collapse:collapse; 
+}
+.ctroka1{
+    padding-left: 20px;
+    padding-top: 30px;
+    padding-bottom: 35px;
+}
+.ctroka2{
+    padding-left: 20px;
+    padding-top: 30px;
+    padding-bottom: 35px;
+}
+.pr08{
+margin-bottom: 30px;
+}
+.ctroka3{
+    padding-left: 20px;
+    padding-top: 30px;
+    padding-bottom: 35px;
+}
+.pr09{
+    margin-bottom: 60px;
+    }
+.pr11{
+     margin-bottom: 30px;
+}
+.pr12{
+    margin-bottom: 30px;
+}
+.pr13{
+    margin-left: 345px;
+    padding-top: 25px;
+    border-left: 1px solid#EBEBEB;
+    border-right: 1px solid#EBEBEB;
+    border-bottom: 1px solid#EBEBEB;
+    padding-left: 35px;
+    padding-bottom: 40px;
+    padding-right: 180px; 
+    margin-bottom: 115px;
+}
+/*-просмотр участка-*/
+.plan{
+    background-image: url(img/Фон.png);
+    padding-top: 100px;
+    padding-bottom: 90px
+}
+.plan h1{
+    font-family: Neumann;
+    color: #E9C878;
+    font-size: 68px;
+    text-transform:uppercase ;
+    text-align: center;
+    margin-right: 60px;
+    margin-top: 0;
+}
+.plan h3{
+    font-family: Neumann;
+    color: #ffffff;
+    font-size: 45px;
+    text-align: center;
+    margin-right: 60px;
+    line-height: 0.1;
+    padding-bottom: 50px;
+}
+.telef{
+    background: #FFFFFF;
+    border-radius: 50px;
+    color: #d8d8d8 ;
+    font-family: Museo Sans Cyrl;
+    font-size: 16px;
+    text-align: center;
+    width: 370px;
+    height: 80px;
+    margin-left: 740px;
+    margin-top: 40px;
+}
+.telef p{
+    padding-top: 30px;
+}
+.date{
+    background:#E9C878;
+    border-radius: 50px;
+    color: #6E5A45 ;
+    text-transform:uppercase ;
+    font-family: Museo Sans Cyrl;
+    font-size: 14px;
+    text-align: center;
+    width: 370px;
+    height: 80px;
+    margin-left: 740px;
+    margin-top: 20px;
+    display: flex;
+}
+.date p{
+    padding-top: 15px;
+}
+.date img{
+   width: 30px;
+   height: 30px;
+   margin-left: 80px;
+   padding-top: 20px;
+   padding-right: 25px;
+}
+.pravila{
+    font-family: Museo Sans Cyrl;
+    color: #FFFFFF;
+    text-align: center;
+    padding-right: 10px;
+    font-size: 14px;
+}
+/*-подвал-*/
+footer{
+    padding-bottom: 50px;
+}
+footer h1{
+    font-family: Neumann;
+    width: 400px;
+    font-size: 28px;
+    margin-top: 65px;
+    margin-left: 345px;
+}
+footer .soc_seti2{
+    margin-top: 65px;
+    margin-left: 65px;
+}
+footer .soc_seti2 img{
+   margin-right: 6px;
+}
+footer .namber2{
+    font-family: Museo Sans Cyrl;
+    font-size: 16px;
+    text-align: right;
+    width: 300px;
+    margin-top: 40px;
+    line-height: 0.2;
+    margin-left: 155px;
+    
+}
+footer .namber2 .num2{
+    font-size: 26px;
+}
+/*-страница с заявкой-*/
+/*-меню-*/
+.conteiner2{
+    background: #00004A;
+}
+.zauyavka_menu{
+    padding-bottom: 20px;
+}
+.zauyavka_menu h1{
+    font-family: Neumann;
+    width: 400px;
+    font-size: 28px;
+    margin-top: 30px;
+    margin-left: 310px;
+}
+.zauyavka_menu .soc_seti2{
+    margin-top: 30px;
+    margin-left: 65px;
+}
+.zauyavka_menu .soc_seti2 img{
+   margin-right: 6px;
+}
+.zauyavka_menu .namber2{
+    font-family: Museo Sans Cyrl;
+    font-size: 16px;
+    text-align: right;
+    width: 300px;
+    margin-top: 5px;
+    line-height: 0.2;
+    margin-left: 155px;
+    
+}
+.zauyavka_menu .namber2 .num2{
+    font-size: 26px;
+}
+/*-сновная информация на этой странице-*/
+ .sber{
+   margin-left: 875px;
+   margin-top: 85px;
+}
+.spasibo{
+    font-size: 68px;
+    font-family: Neumann;
+    margin-left: 800px;
+    line-height: 1.0;
+}
+.zauyav p{
+    font-family: Museo Sans Cyrl;
+    text-align: center;
+    font-size: 26px;
+    color: #28292E;
+    padding-top: 10px;
+}
+.zauyav h2{
+    font-family: Museo Sans Cyrl;
+    text-align: center;
+    font-size: 34px;
+    color: #28292E;
+    padding-top: 10px;
+}
